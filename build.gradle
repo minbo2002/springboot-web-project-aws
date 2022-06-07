@@ -30,8 +30,9 @@ repositories {
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    implementation 'org.mockito:mockito-all:1.10.19'
+    compile('org.springframework.boot:spring-boot-starter-web:2.1.7.RELEASE')
+    testCompile('org.springframework.boot:spring-boot-starter-test:2.1.7.RELEASE')
 
 }
 
