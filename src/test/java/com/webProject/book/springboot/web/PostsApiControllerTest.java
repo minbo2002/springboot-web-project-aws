@@ -36,6 +36,7 @@ public class PostsApiControllerTest {
         postsRepository.deleteAll();
     }
 
+    // 등록
     @Test
     public void Posts_등록된다() throws Exception {
         // given
@@ -62,6 +63,7 @@ public class PostsApiControllerTest {
         assertThat(all.get(0).getContent()).isEqualTo(content);
     }
 
+    // 수정
     @Test
     public void Posts_수정된다() throws Exception {
         // given
