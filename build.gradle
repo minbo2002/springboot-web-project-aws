@@ -38,6 +38,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     // H2 DB
     compile('com.h2database:h2')
+    // mustache 의존성 라이브러리
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }
 
 test {
