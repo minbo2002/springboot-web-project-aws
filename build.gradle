@@ -40,6 +40,8 @@ dependencies {
     compile('com.h2database:h2')
     // mustache 의존성 라이브러리
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    // security 의존성 라이브러리
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 }
 
 test {
