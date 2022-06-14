@@ -42,8 +42,13 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     // security 의존성 라이브러리
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+    // jdbc 의존성 라이브러리
+    compile('org.springframework.boot:spring-session-jdbc')
+    // security 테스트 라이브러리
+    testCompile('org.springframework.security:spring-security-test')
 }
 
+// JUnit 5
 test {
     useJUnitPlatform()
 }
